@@ -8,7 +8,6 @@ REPOS=(
   "git@github.com:Budget-Bees/budget-bees-db.git"
   "git@github.com:Budget-Bees/budget-bees-api.git"
   "git@github.com:Budget-Bees/budget-bees-ui.git"
-  "git@github.com:Budget-Bees/budget-bees-setup.git"
 )
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"

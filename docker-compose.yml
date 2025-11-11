@@ -13,7 +13,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U budget_user -d budget_bees"]
+      test: ["CMD-SHELL", "pg_isready -U budget_bees -d budget_bees"]
       interval: 5s
       timeout: 5s
       retries: 5
